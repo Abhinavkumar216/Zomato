@@ -27,7 +27,18 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      [
+        "expo-font",
+        {
+          "MetropolisBold": ["./assets/fonts/Metropolis-Bold.otf"],
+          "MetropolisSemiBold": ["./assets/fonts/Metropolis-SemiBold.otf"],
+          "MetropolisMedium": ["./assets/fonts/Metropolis-Medium.otf"],
+          "MetropolisRegular": ["./assets/fonts/Metropolis-Regular.otf"],
+          "OpenSansRegular": ["./assets/fonts/OpenSans-Regular.ttf"],
+          "OpenSansSemiBold": ["./assets/fonts/OpenSans-SemiBold.ttf"]
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
